@@ -56,18 +56,10 @@ This project was built as part of a coding challenge and helped me practice REST
    git clone https://github.com/natasha-wairimu/pizza-api.git
    cd pizza-api/server
 Create a virtual environment:
+   pipenv install
+   pipenv shell
 
-bash
 Copy
-Edit
-python3 -m venv venv
-source venv/bin/activate
-Install dependencies:
-
-
-bash
-Copy
-Edit
 flask db init  # only if running for the first time
 flask db migrate -m "init"
 flask db upgrade
